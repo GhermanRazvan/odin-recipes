@@ -1,11 +1,50 @@
-.main{
-    font-weight: bold;
-    font-size: 32px;
-    font-family: 'Courier New', Courier, monospace;
+
+
+ html,body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+
+    height: 100%;
+
+    
     
 }
 
-#r1,#r2,#r3{
-    background-color: red;
-       
+
+
+.container {
+    background: yellowgreen;
+    padding: 15px;
+    display: flex;
+    
+    
+    background-color: lightblue;
+    border: 30px solid black;
+    align-items: center;
+}
+
+.content {
+    margin: 20px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.image {
+    margin-left: 20px; /* Add some space between content and image */
+}
+
+img {
+    max-width: 300px;
+    height: auto;
 }
