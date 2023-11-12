@@ -1,0 +1,11 @@
+.main{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#r1,#r2,#r3{
+    background-color: red;
+       
+}
